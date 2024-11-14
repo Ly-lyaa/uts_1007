@@ -1,0 +1,50 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: hsl(309, 100%, 75%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+.card {
+    width: 60%;
+    margin: 20px;            /* Jarak antar kartu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan */
+    border-radius: 10px;          /* Buat sudut melengkung */
+    overflow: hidden;             /* Pastikan konten tetap di dalam kartu */
+    transition: transform 0.2s;   /* Animasi saat di-hover */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);       /* Zoom saat di-hover */
+  }
+  
+  .card img {
+    width: 100%;                  /* Gambar selebar kartu */
+    height: 80;                 /* Menjaga proporsi gambar */
+    border-top-left-radius: 10%; /* Ikuti sudut kartu */
+    border-top-right-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 15px;
+    text-align: center;           /* Pusatkan teks dalam kartu */
+  }
+  
+  .card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 1em;
+    color: #666;
+  }
